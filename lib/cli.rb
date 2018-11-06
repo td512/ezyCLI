@@ -44,7 +44,7 @@ def exit_handler
   rescue NoMethodError => e
     puts "#{error}Unable to save history!"
   end
-  puts "#{debug}Exiting ezyDB"
+  puts "#{debug}Exiting ezyCLI"
   puts "#{info}Have a great day!"
 end
 
@@ -101,7 +101,7 @@ def application_start
     begin
       @plugin_commands.merge!(plugin_commands)
     rescue NameError => e
-      # Do nothing if theunlessre's no such method
+      # Do nothing if there's no such method
     end
     begin
       @plugin_associations.merge!(plugin_associations)
