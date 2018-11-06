@@ -1,14 +1,5 @@
 # Yes, the ability to unload plugins is itself a plugin. You may also not unload the plugin unloader. This is a hardcoded dep for the application to run correctly
 
-# Silence all warnings
-def silence_warnings
-    original_verbosity = $VERBOSE
-    $VERBOSE = nil
-    result = yield
-    $VERBOSE = original_verbosity
-    return result
-end
-
 def unload_plugin(plugin_name)
   if REQUIRED_PLUGINS.include? plugin_name
     puts "#{error}Cowardly refusing to unload a core plugin"

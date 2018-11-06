@@ -1,14 +1,5 @@
 # Yes, the ability to load plugins is itself a plugin. You may also not unload the plugin loader. This is a hardcoded dep for the application to run correctly
 
-# Silence all warnings
-def silence_warnings
-    original_verbosity = $VERBOSE
-    $VERBOSE = nil
-    result = yield
-    $VERBOSE = original_verbosity
-    return result
-end
-
 def load_plugin(plugin_name)
   if @plugin_associations["plugin_name"]
     puts "#{error}Cowardly refusing to load a plugin that's already loaded"
