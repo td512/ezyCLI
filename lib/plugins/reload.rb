@@ -1,12 +1,3 @@
-# Silence all warnings
-def silence_warnings
-    original_verbosity = $VERBOSE
-    $VERBOSE = nil
-    result = yield
-    $VERBOSE = original_verbosity
-    return result
-end
-
 def reload_plugin(plugin_name)
   unload_plugin plugin_name
   load_plugin plugin_name
