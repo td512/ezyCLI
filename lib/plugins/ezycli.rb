@@ -33,7 +33,7 @@ def cli_cmd(cmd)
       @newline = 0
       exit 0
     when (cmd.include?("version"))
-      puts "ezyCLI version 0.2.1 DEV"
+      puts "ezyCLI version 0.2.3 DEV"
     when (cmd.empty?)
       # blank command...
     else
