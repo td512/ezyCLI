@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'readline'
   s.homepage    =
     'https://github.com/td512/ezycli'
-  s.license       = 'GPL-3.0-or-later'
+  s.license       = 'GPL-3.0+'
 end
