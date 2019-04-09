@@ -3,7 +3,7 @@ require "readline"
 # What? you thought that the CLI also wouldn't be a plugin?
 def cli_is_ready
   puts "#{info}Loaded #{@plugin_counter} plugin(s)!"
-  puts "#{info}Welcome to the ezyDB CLI! _stuck? try 'help'"
+  puts "#{info}Welcome to the ezyCLI! _stuck? try 'help'"
 end
 
 def cli_loop
