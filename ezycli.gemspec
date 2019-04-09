@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ezycli'
-  s.version     = '0.2.4'
+  s.version     = '1.0'
   s.date        = '2019-04-09'
   s.summary     = "The ezy way to manage your workspace"
   s.description = "The ezy way to manage your workspace"
