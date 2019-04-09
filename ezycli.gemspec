@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'ezycli'
-  s.version     = '0.2.3'
-  s.date        = '2018-11-07'
+  s.version     = '0.2.4'
+  s.date        = '2019-04-09'
   s.summary     = "The ezy way to manage your workspace"
   s.description = "The ezy way to manage your workspace"
   s.authors     = ["Theo Morra"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'activesupport', '5.2.1'
   s.add_runtime_dependency 'readline'
   s.homepage    =
-    'http://rubygems.org/gems/ezycli'
+    'https://github.com/td512/ezycli'
   s.license       = 'GPL-3.0-or-later'
 end
