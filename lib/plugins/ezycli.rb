@@ -26,8 +26,8 @@ def cli_cmd(cmd)
     case
     when (cmd.include?("help"))
       puts "help         - Provides this help text"
-      puts "version      - Shows the version of ezyDB"
-      puts "exit         - Exits ezyDB"
+      puts "version      - Shows the version of ezyCLI"
+      puts "exit         - Exits ezyCLI"
       puts @plugin_help
     when (cmd.include?("exit"))
       @newline = 0
